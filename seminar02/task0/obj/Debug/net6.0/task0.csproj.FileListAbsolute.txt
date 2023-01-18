@@ -1,0 +1,15 @@
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.csproj.AssemblyReference.cache
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.GeneratedMSBuildEditorConfig.editorconfig
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.AssemblyInfoInputs.cache
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.AssemblyInfo.cs
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.csproj.CoreCompileInputs.cache
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/task0
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/task0.deps.json
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/task0.runtimeconfig.json
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/task0.dll
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/ref/task0.dll
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/bin/Debug/net6.0/task0.pdb
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.dll
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/ref/task0.dll
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.pdb
+/home/jake/Jake/GeekBrains/C#/seminar02/task0/obj/Debug/net6.0/task0.genruntimeconfig.cache
