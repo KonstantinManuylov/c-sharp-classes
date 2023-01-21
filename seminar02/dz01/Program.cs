@@ -16,12 +16,11 @@ else
     Console.WriteLine($"Третья цифра в числе {number} - {newNum}");
 }
 
-
 int ThirdNumber(int num)
 {
     while (num > 1000)
     {
-            num /= 10;
+        num /= 10;
     }
     return num %= 10;
 }

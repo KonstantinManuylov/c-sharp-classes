@@ -1,0 +1,15 @@
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.csproj.AssemblyReference.cache
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.GeneratedMSBuildEditorConfig.editorconfig
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.AssemblyInfoInputs.cache
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.AssemblyInfo.cs
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.csproj.CoreCompileInputs.cache
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/dz00
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/dz00.deps.json
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/dz00.runtimeconfig.json
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/dz00.dll
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/ref/dz00.dll
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/bin/Debug/net6.0/dz00.pdb
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.dll
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/ref/dz00.dll
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.pdb
+/home/jake/Jake/GeekBrains/C#/seminar03/dz00/obj/Debug/net6.0/dz00.genruntimeconfig.cache

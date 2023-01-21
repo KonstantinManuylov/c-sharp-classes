@@ -1,6 +1,4 @@
-﻿// 
-
-int number = InputInt("Введите число");
+﻿int number = InputInt("Введите число");
 int maxNumber = Max(number);
 Console.WriteLine($"Максимальная цифра в числе {number} - {maxNumber}");
 
