@@ -10,14 +10,6 @@ int maxValue = InputData("Введите максимальное значени
 int[] newArray = CreateRandomNumbersArray(number, minValue, maxValue);
 PrintArray(newArray);
 
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        Console.Write(array[i] + " ");
-    }
-}
-
 int[] CreateRandomNumbersArray(int num, int min, int max)
 {
     int[] array = new int[num];
@@ -33,4 +25,12 @@ int InputData(string message)
 {
     Console.WriteLine(message + " > ");
     return Convert.ToInt32(Console.ReadLine());
+}
+
+void PrintArray(int[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write(array[i] + " ");
+    }
 }

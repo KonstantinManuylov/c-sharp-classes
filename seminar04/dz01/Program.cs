@@ -8,6 +8,12 @@ int number = InputData("Введите число");
 int result = FindSum(number);
 Console.WriteLine(result);
 
+int InputData(string message)
+{
+    Console.WriteLine(message + " > ");
+    return Convert.ToInt32(Console.ReadLine());
+}
+
 int FindSum(int num)
 {
     int left;
@@ -19,10 +25,4 @@ int FindSum(int num)
         sum += left;
     }
     return sum;
-}
-
-int InputData(string message)
-{
-    Console.WriteLine(message + " > ");
-    return Convert.ToInt32(Console.ReadLine());
 }
