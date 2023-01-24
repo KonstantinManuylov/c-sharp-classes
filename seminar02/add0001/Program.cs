@@ -1,47 +1,37 @@
-﻿// Напишите программу, которая принимает на вход трёхзначное число 
-// и на выходе показывает вторую цифру этого числа.
-// 456 -> 5
-// 782 -> 8
-// 918 -> 1
+﻿//  Напишите программу, которая принимает на вход цифру, обозначающую день недели, и 
+// проверяет, является ли этот день выходным.
+//  Пример:
+//  6 -> да
+//  7 -> да
+//  1 -> нет
 
-double number = InputData("Введите число 1");
-double number2 = InputData("Введите число 2");
-
-double resultDivide = FindDivide(number, number2);
-Console.WriteLine($"Целочислительное деление = {resultDivide}");
-
-double resultDivideLeft = FindLeft(number, number2);
-Console.WriteLine($"Деление по остатку = {resultDivideLeft}");
-
-/* if (number < 100 && number > 1000)
+int InputInt(string message)
 {
-    Console.WriteLine("Вы ввели не трехзначное число.");
-}
-else
-{
-    Console.WriteLine(FindSecond(number));
-}
-
-int FindSecond(int num)
-{
-    num = 100;
-    num = 10;
-    return num;
-} */
-
-double InputData(string message)
-{
-    Console.WriteLine(message + " > ");
-    double result = Convert.ToDouble(Console.ReadLine());
+    System.Console.Write(message + " > ");
+    string? inputValue = System.Console.ReadLine();
+    int result = Convert.ToInt32(inputValue);
     return result;
 }
 
-double FindDivide(double num1, double num2)
+bool ValidateNumberWeek(int number)
 {
-    return num1 / num2;
+    if (number >= 1 && number <= 7)
+    {
+        return true;
+    }
+    System.Console.WriteLine($"Число {number} не является обозначением дня недели");
+    return false;
 }
 
-double FindLeft(double num1, double num2)
+string[] weeks = new string [7]{"понедельник", "вторник", "среда",
+                                "четверг", "пятница", "суббота",  
+                                "воскресенье"};
+int number = InputInt("Введите число, обозначающее день недели");
+if (ValidateNumberWeek(number))
 {
-    return num1 % num2;
+    if (number >= 6)
+    {
+        System.Console.WriteLine($"Число {number} это {weeks[number - 1]}, значит выходной");
+    }
+    System.Console.WriteLine($"Число {number} это {weeks[number - 1]}, значит будни");
 }

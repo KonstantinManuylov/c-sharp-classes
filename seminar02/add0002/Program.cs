@@ -24,7 +24,7 @@ string IsPalindrom(string num)
     {
         if (num[0] == '0')
         {
-            return "Введенное число ненатуральное";
+            return $"Введенное число {num} ненатуральное";
         }
         else
         {
@@ -50,28 +50,3 @@ string IsPalindrom(string num)
         return $"Введенные данные {num} не являются числом.";
     }
 }
-/* 
-int x, x_tmp, x2 = 0;
-        Console.Write("Введите число: ");
-        string s = Console.ReadLine();
-        
-        if (int.TryParse(s, out x))
-        {
-            if (s[0]=='0')Console.WriteLine("не натуральное число");
-            else
-            {
-                x_tmp = x;
-                while (x_tmp > 0)
-                {
-                    x2 *= 10;
-                    x2 += x_tmp % 10;
-                    x_tmp /= 10;
-                }
-                if (x == x2) Console.WriteLine("палиндром");
-                else Console.WriteLine("не палиндром");
-            }
-        } 
-        else
-        {
-            Console.WriteLine("Введено не число");
-        } */
