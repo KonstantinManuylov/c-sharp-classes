@@ -30,7 +30,6 @@ int FindMax(int[] array)
         if (array[i] > max)
         {
             max = array[i];
-
         }
         if (array[i] > secondMax && array[i] < max)
         {
