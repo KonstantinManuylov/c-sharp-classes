@@ -24,21 +24,14 @@ void PrintArray(int[] array)
 int FindMax(int[] array)
 {
     int max = array[0];
+    int secondMax = int.MinValue;
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i] > max)
         {
             max = array[i];
-        }
-    }
-    return max;
-}
 
-int FindSecondMax(int[] array, int max)
-{
-    int secondMax = array[0];
-    for (int i = 0; i < array.Length; i++)
-    {
+        }
         if (array[i] > secondMax && array[i] < max)
         {
             secondMax = array[i];
@@ -49,6 +42,5 @@ int FindSecondMax(int[] array, int max)
 
 int[] numbersArray = FillNumbersArray();
 PrintArray(numbersArray);
-int max = FindMax(numbersArray);
-int secondMax = FindSecondMax(numbersArray, max);
+int secondMax = FindMax(numbersArray);
 Console.WriteLine($"Второе максимальное число в массиве {secondMax}");
