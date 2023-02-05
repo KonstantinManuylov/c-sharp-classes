@@ -58,9 +58,10 @@ int columns = InputData("Введите номер стобца");
 int[,] resultArray = CreateArray();
 int resultNumber = FindNumberInArray(lines, columns, resultArray);
 PrintArray(resultArray);
+
 if (Validate(lines, columns, resultArray))
 {
-    Console.WriteLine($"Число в массиве в позиции {lines}, {columns} = {resultNumber}.");
+    Console.WriteLine($"Число в массиве, в позиции [{lines}, {columns}] = {resultNumber}.");
 }
 else
 {
