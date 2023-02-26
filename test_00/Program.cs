@@ -37,3 +37,8 @@ string[] NewWords(string[] array, int charAmount = 3)
     }
     return finishArray;
 }
+
+string[] words = {  "hello", "2", "world", ":-)", "1234", "1567",
+                    "-2", "computer science", "Russia", "Denmark", "Kazan"};
+string[] finishWords = NewWords(words);
+Console.WriteLine(TruePrint(finishWords));
