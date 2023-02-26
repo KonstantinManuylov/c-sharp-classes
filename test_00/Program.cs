@@ -10,3 +10,14 @@
     res += "]";
     return res;
 }
+
+int Range(string[] array, int charAmount = 3)
+{
+    int count = 0;
+    for (int i = 0; i < array.Length; i++)
+    {
+        if (array[i].Length <= charAmount)
+            count++;
+    }
+    return count;
+}
